@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+    
+}
+
+header{
+    background-color: aqua;
+    padding: 10px;
+}
+
+h1{
+    margin: 0;
+}
+
+li{
+    
+    padding: 10px;
+    outline-style: solid;
+    margin-bottom: 10px;
+
+}
+
+ul li:hover{
+    background-color: aqua;
+
+}
+
+ul{
+    list-style-type: none;
+    margin-left: 20%;
+    margin-right: 20% ;
+    font-size: 20px;
+    padding: 0px;
+}
+
+.delete-button{
+    float: right;
+    background-color: red;
+}
+
+.delete-button:hover{
+    background-color: darkred;
+}
+
+.selected{
+    background-color: aquamarine;
+    text-decoration: line-through;
+}
+
+ul li.checked {
+    text-decoration: line-through;
+    background-color: lightblue;
+  }
+
+.checked::before {
+    content: "\2713";
+    position: absolute;
+    font-size: 15px;
+    left: 23%;
+    font-weight: bolder;
+    color: blue;
+  }
+
+
